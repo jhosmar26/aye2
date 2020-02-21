@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <link rel="stylesheet" type="text/css" href="style/headerSticky.css">
+    <title>AyE</title>
+    <link rel="shortcut icon" href="aye-t.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body style="margin:0;" ;>
+<div class="topest">
+    <header>
+        <div id="header">
+            <div class="nav-center" id="nav-center">
+                <div>
+					<a href="index2.php">
+						<img class="logo" id="nav-logo" src="style/img/aye-t.png">
+					</a>
+                </div>
+                <div class="nav-list">
+                    <ul class="menu">
+                        <li class="menu-option"><a class="menu-a" href="nosotros.php">Nosotros</a></li>
+                        <li class="menu-option"><a class="menu-a" href="u-negocio.php">Unidades de negocio</a></li>
+                        <li class="menu-option"><a class="menu-a">Contáctanos</a></li>
+                        <li class="menu-option"><a class="menu-a" href="proyectos.html">Proyectos realizados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("header").classList.add("fix-top");
+                } else {
+                    document.getElementById("header").classList.remove("fix-top");
+                }
+            }
+        </script>
+    </header>
+</div>
+</body>
+</html>

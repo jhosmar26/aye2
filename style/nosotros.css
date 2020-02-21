@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+.nosotros-body {
+	background-color: white;
+}
+
+.nosotros-body-cnt{
+	width: 70%;
+	margin: auto;
+}
+ .us-title{
+ 	display: flex;
+ 	justify-content: center;
+ 	font-size: 80px;
+ }
+
+.index-info-title {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	margin: 0;
+	color: #0093dd;
+}
+
+
+.values * {
+	text-align: center;
+}
